@@ -8,9 +8,21 @@
 </head>
 <body>
     <h1>定義渲染區域</h1>
-    <div id="認識定義渲染區域vue1">
+    <div id="vue1">
+        {{ text }}
 
+        <h2>
+            {{ text }}
+        </h2>
+
+        <h3>
+            {{ text }}
+            {{ text }}
+        </h3>
     </div>
+
+    <!-- 在渲染區域外不能使用 -->
+    {{ text }}
     
     <!-- Vue CDN -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
