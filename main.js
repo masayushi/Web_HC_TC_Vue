@@ -49,11 +49,18 @@ var vue4 = new Vue({
 var vue5 = new Vue({
     el: "#vue5",
     data : {
-        text: ""
+        text: "",
+        count: 0
     },
     methods: {
         show: function() {
             this.text = "點到了~"
+        },
+        add: function() {
+            this.count++;
+        },
+        sub: function () {
+            this.count--;
         }
     }
 });
