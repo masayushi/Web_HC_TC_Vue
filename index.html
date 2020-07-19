@@ -35,7 +35,15 @@
         <!-- v-bind: 添加在屬性前 -->
         <!-- 屬性="資料名稱" !!!不需要加雙大括號!!! -->
         <h2 v-bind:align="aligment">標題二</h2>
-        <a v-bind:href="yahoo">奇摩!</a>
+        <a v-bind:href="yahoo" target="_blank">奇摩!</a>
+    </div>
+
+    <h1>判斷式</h1>
+    <div id="vue3">
+        <!-- 判斷式 v-if="資料名稱" -->
+        <!-- 當資料 true 顯示，否則 隱藏 -->
+        <p v-if="test">我是段落文字</p>
+        <div v-if="test">我是區塊</div>
     </div>
     
     <!-- Vue CDN -->

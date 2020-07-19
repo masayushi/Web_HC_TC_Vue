@@ -21,3 +21,11 @@ var vue2 = new Vue({
         yahoo: "https://tw.yahoo.com/"
     }
 });
+
+var vue3 = new Vue({
+    el: "#vue3",
+    data: {
+        // 布林值
+        test: true
+    }
+});
