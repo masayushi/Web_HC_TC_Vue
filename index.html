@@ -75,6 +75,10 @@
             <span v-on:click="sub">-</span> 
             <span v-on:click="add">+</span>
         </div>
+
+        <!-- v-on:click 簡寫為 @click -->
+        <h3 @click="change">點我 {{ msg }}</h3>
+        <h3 @dblclick="change">點我 {{ msg }}</h3>
     </div>
 
 

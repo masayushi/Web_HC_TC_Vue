@@ -50,7 +50,8 @@ var vue5 = new Vue({
     el: "#vue5",
     data : {
         text: "",
-        count: 0
+        count: 0,
+        msg: ""
     },
     methods: {
         show: function() {
@@ -61,6 +62,9 @@ var vue5 = new Vue({
         },
         sub: function () {
             this.count--;
+        },
+        change: function() {
+            this.msg = "點到了!!!"
         }
     }
 });
