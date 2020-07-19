@@ -38,7 +38,7 @@
         <a v-bind:href="yahoo" target="_blank">奇摩!</a>
     </div>
 
-    <h1>判斷式</h1>
+    <h1>判斷式 if</h1>
     <div id="vue3">
         <!-- 判斷式 v-if="資料名稱" -->
         <!-- 當資料 true 顯示，否則 隱藏 -->
@@ -51,9 +51,12 @@
         <span v-else="activity">活動已經結束囉。</span>
     </div>
     
+    <h1>迴圈 for</h1>
 
-
-
+    <div id="vue4">
+        <!-- v-for="變數 in 次數" -->
+        <a href="#" v-for="n in 5">分頁連結 {{ n }}</a>
+    </div>
 
 
 

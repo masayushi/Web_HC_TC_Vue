@@ -30,3 +30,7 @@ var vue3 = new Vue({
         activity: false
     }
 });
+
+var vue4 = new Vue({
+    el: "#vue4"
+});
