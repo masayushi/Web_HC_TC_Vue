@@ -68,3 +68,10 @@ var vue5 = new Vue({
         }
     }
 });
+
+var vue6 = new Vue({
+    el: "#vue6",
+    data: {
+        name: ""
+    }
+});
