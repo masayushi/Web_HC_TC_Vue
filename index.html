@@ -55,7 +55,13 @@
 
     <div id="vue4">
         <!-- v-for="變數 in 次數" -->
-        <a href="#" v-for="n in 5">分頁連結 {{ n }}</a>
+        <a href="#" v-for="n in 5">分頁連結 {{ n }} </a>
+
+        <div v-for="p in products">
+            <h3>{{ p.name }}</h3>
+            <h4>價格：{{ p.price }} 元</h4>
+            <hr>
+        </div>
     </div>
 
 

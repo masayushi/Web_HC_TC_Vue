@@ -32,5 +32,14 @@ var vue3 = new Vue({
 });
 
 var vue4 = new Vue({
-    el: "#vue4"
+    el: "#vue4",
+    data: {
+        products: [
+            {name: "奶茶", price: 45},
+            {name: "紅茶", price: 40},
+            {name: "綠茶", price: 40},
+            {name: "青茶", price: 35},
+            {name: "咖啡", price: 70}
+        ]
+    }
 });
