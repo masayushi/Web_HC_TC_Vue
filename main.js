@@ -43,3 +43,17 @@ var vue4 = new Vue({
         ]
     }
 });
+
+// methods 定義函式
+// 函式名稱: function() { 函式內容 }
+var vue5 = new Vue({
+    el: "#vue5",
+    data : {
+        text: ""
+    },
+    methods: {
+        show: function() {
+            this.text = "點到了~"
+        }
+    }
+});
