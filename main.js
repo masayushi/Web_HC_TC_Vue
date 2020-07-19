@@ -17,7 +17,7 @@ var vue1 = new Vue({
 var vue2 = new Vue({
     el: "#vue2",
     data: {
-        aligment: "right",
+        aligment: "center",
         yahoo: "https://tw.yahoo.com/"
     }
 });
@@ -26,6 +26,7 @@ var vue3 = new Vue({
     el: "#vue3",
     data: {
         // 布林值
-        test: true
+        test: true,
+        activity: false
     }
 });

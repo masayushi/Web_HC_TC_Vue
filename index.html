@@ -44,8 +44,19 @@
         <!-- 當資料 true 顯示，否則 隱藏 -->
         <p v-if="test">我是段落文字</p>
         <div v-if="test">我是區塊</div>
+
+        <h2>活動特價</h2>
+        <a href="#" v-if="activity">特價區，點我前往~</a>
+        <!-- v-else 否則，當布林值為 false 顯示元素 -->
+        <span v-else="activity">活動已經結束囉。</span>
     </div>
     
+
+
+
+
+
+
     <!-- Vue CDN -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="./main.js"></script>
