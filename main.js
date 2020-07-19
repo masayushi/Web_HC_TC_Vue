@@ -8,6 +8,16 @@ console.log("我是JS");
 var vue1 = new Vue({
     el: "#vue1",
     data: {
-        text: "哈囉，我是 vue ~"
+        text: "哈囉，我是 Vue !!!",
+        a: 999,
+        b: 3
+    }
+});
+
+var vue2 = new Vue({
+    el: "#vue2",
+    data: {
+        aligment: "right",
+        yahoo: "https://tw.yahoo.com/"
     }
 });

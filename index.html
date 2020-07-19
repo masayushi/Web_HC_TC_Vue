@@ -10,19 +10,30 @@
     <h1>定義渲染區域</h1>
     <div id="vue1">
         {{ text }}
+        {{ a }}
 
         <h2>
-            {{ text }}
+            {{ text + a }}
         </h2>
 
         <h3>
             {{ text }}
             {{ text }}
         </h3>
+
+        <h4>
+            {{ a + b }}
+        </h4>
     </div>
 
     <!-- 在渲染區域外不能使用 -->
     {{ text }}
+
+    <h1>將資料寫在屬性內</h1>
+    <div id="vue2">
+        <h2 v-bind:align="aligment">標題二</h2>
+        <a v-bind:href="yahoo">奇摩!</a>
+    </div>
     
     <!-- Vue CDN -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
