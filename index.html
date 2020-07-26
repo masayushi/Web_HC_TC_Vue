@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>練習 Vue</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>練習 Vue</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        
+         <!-- 導覽列 -->
+    <div id="navbar">
+        <navbar></navbar>
+    </div>
+
     <h1>定義渲染區域</h1>
     <div id="vue1">
         {{ text }}
@@ -88,6 +94,18 @@
         <p>{{ name }} 您好，這是您的帳號資訊：...</p>
     </div>
 
+    <div id="vue7">
+        <test-a></test-a>
+        <test-a></test-a>
+        <test-a></test-a>
+    </div>
+
+    <div id="vue8">
+        <vue-content></vue-content>
+        <vue-content></vue-content>
+        <vue-content></vue-content>
+        <vue-content></vue-content>
+    </div>
 
 
     <!-- Vue CDN -->
